@@ -40,7 +40,6 @@ html {
 .card header, .card footer {
     height: 3.125em;
     padding: 0.625em;
-    box-sizing: border-box;
 }
 
 .card header h2 {
