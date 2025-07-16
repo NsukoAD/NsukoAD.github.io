@@ -24,6 +24,7 @@ body {
 .network p {
     font-size: 10px;
     color: white;
+    overflow-wrap: normal;
 }
 
 .health h2 {
