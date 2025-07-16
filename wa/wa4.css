@@ -38,31 +38,32 @@ html {
 }
 
 .card header, .card footer {
-    height: 3.125em;
-    padding: 0.625em;
+    height: 3em;
+    padding: 1em;
 }
 
 .card header h2 {
-    font-size: 1.25em;
-    line-height: 1.5;
+    font-size: 2em;
+    line-height: 3;
 }
 
 .card footer p {
-    font-size: 0.9375em;
+    font-size: 1.5em;
     line-height: 2;
 }
 
 /* Main Buisness Card Contents */
 .card article img {
-  float: right;
   max-height: 100%;
+  float: right;
+  
 }
 
 .card article {
-    height: 7.5em;
+    height: 12em;
     background-color: #00000080;
 }
 
 .card article p {
-    padding-left: 0.625em;
+    padding-left: 1.5em;
 }
