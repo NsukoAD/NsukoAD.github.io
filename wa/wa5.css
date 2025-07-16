@@ -1,0 +1,48 @@
+html {
+  font-family: sans-serif;
+  height: 100%;
+}
+
+body {
+  background: url(Valorant-Background.png) no-repeat center center / cover;
+  margin: 0;
+}
+
+.network h2, .network p {
+    background-color: rgba(0,0,0,0.2);
+    padding: 0.5em;
+    border-radius: 0.25em;
+    margin-right: 93%;
+    margin-left: 1%;
+}
+
+.network h2 {
+    font-size: 15px;
+    color:aquamarine;
+}
+
+.network p {
+    font-size: 10px;
+    color: white;
+}
+
+.health h2 {
+    background-color: rgba(0,128,0,0.4);
+    border: 0.2em solid black;
+    width: 20em;
+    font-size: 20px;
+    color:rgba(255, 255, 255, 0.9);
+    text-align: center;
+    position: fixed;
+    bottom: 2em;
+    left: 28em; 
+}
+
+.score {
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    position: fixed;
+    top: 9.6em;
+    left: 13.5em;
+}
