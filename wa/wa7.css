@@ -1,0 +1,82 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightslategray;
+    font-family: sans-serif;
+}
+
+h1{
+    transition-property: color;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+}
+
+h1:hover{
+    color: whitesmoke;
+}
+
+nav{
+    height: 50vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:20px;
+    background-color: black;
+}
+nav a{
+    width:10vw;
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav a:hover{
+    color:lightslategray;
+}
+
+img{
+    margin-top: 10px;
+    width:30vw;
+    height: 30vh;
+    transition-property: height;
+    transition-duration: 1s;
+}
+
+img:hover{
+    height: 60vh;
+}
+
+#red-ball{
+    background-color: white;
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    position: absolute;
+    left:5vw;
+    top:0;
+    animation: ballMove 8s  infinite;
+}
+
+@keyframes ballMove{
+    0%{
+        top: 10px;
+        left: 20vw;
+    }
+    25%{
+        top: 10px;
+        left: 80vw;
+    }
+    50%{
+        top: 80vh;
+        left: 80vw;
+    }
+    75%{
+        top: 80vh;
+        left: 20vw;
+    }
+    100%{
+        top: 10px;
+        left: 20vw;
+    }
+}
