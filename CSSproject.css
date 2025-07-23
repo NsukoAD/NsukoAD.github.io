@@ -1,0 +1,57 @@
+body{
+    background-image: url(staticCU.png);
+    font-family: sans-serif;
+    background-color: #e4e4e4;
+    color: white;
+}
+
+    
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 18%;
+    font-size: 30px;
+}
+
+.subheader{
+    background-color: #cfb87c90;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 40px;
+}
+
+.concerts{
+    background: rgba(30,30,30,0.85);
+}
+
+.shows-parent{
+    margin-top: 15px;
+    margin-left: 8%;
+    margin-right: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.shows-child{
+    background-image: url(showsBackground.jpg);
+    margin: 10px;
+    flex: auto;
+    padding: 30px;
+    width: 300px;
+    text-align: left;
+}
+
+.concerts .shows-parent .shows-child h3{
+    font-size: 30px;
+}
