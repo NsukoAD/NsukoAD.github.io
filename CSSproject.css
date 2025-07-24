@@ -3,6 +3,7 @@ body{
     font-family: sans-serif;
     background-color: #e4e4e4;
     color: white;
+    margin: 0;
 }
 
 @media screen and (min-width: 501px){
@@ -12,7 +13,7 @@ body{
     align-items: center;
     text-align: center;
     margin-top: 15%;
-    margin-bottom: 18%;
+    margin-bottom: 19%;
     font-size: 30px;
 }
 
@@ -37,16 +38,32 @@ body{
     }
 }
 
+.nav{
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.nav #nav-child:hover{
+    color:#cfb87c;
+
+}
+
 .subheader{
-    background-color: #cfb87c90;
-    margin-left: 25%;
-    margin-right: 25%;
+    background-color: #cfb87c80;
+    margin-left: 0;
+    margin-right: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     font-size: 28px;
-    border-radius: 40px;
 }
 
 .concerts{
@@ -54,9 +71,8 @@ body{
 }
 
 .shows-parent{
-    margin-top: 15px;
-    margin-left: 8%;
-    margin-right: 8%;
+
+    margin: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
