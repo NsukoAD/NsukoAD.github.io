@@ -91,6 +91,7 @@ body{
 }
 
 .shows-child1{
+    font-family: sans-serif;
     background-image: url(showsBackground.jpg);
     margin: 10px;
     flex: auto;
@@ -104,6 +105,7 @@ body{
 }
 
 .shows-child2{
+    font-family: sans-serif;
     background-image: url(showsBackground.jpg);
     margin: 10px;
     flex: auto;
@@ -117,6 +119,7 @@ body{
 }
 
 .shows-child3{
+    font-family: sans-serif;
     background-image: url(showsBackground.jpg);
     margin: 10px;
     flex: auto;
@@ -130,6 +133,7 @@ body{
 }
 
 .shows-child4{
+    font-family: sans-serif;
     background-image: url(showsBackground.jpg);
     margin: 10px;
     flex: auto;
@@ -143,6 +147,7 @@ body{
 }
 
 .shows-child5{
+    font-family: sans-serif;
     background-image: url(showsBackground.jpg);
     margin: 10px;
     flex: auto;
@@ -156,6 +161,7 @@ body{
 }
 
 .shows-child6{
+    font-family: sans-serif;
     background-image: url(showsBackground.jpg);
     margin: 10px;
     flex: auto;
@@ -169,6 +175,7 @@ body{
 }
 
 .shows-child7{
+    font-family: sans-serif;
     background-image: url(showsBackground.jpg);
     margin: 10px;
     flex: auto;
@@ -182,6 +189,7 @@ body{
 }
 
 .shows-child8{
+    font-family: sans-serif;
     background-image: url(showsBackground.jpg);
     margin: 10px;
     flex: auto;
@@ -195,6 +203,7 @@ body{
 }
 
 .shows-child9{
+    font-family: sans-serif;
     background-image: url(showsBackground.jpg);
     margin: 10px;
     flex: auto;
@@ -208,6 +217,7 @@ body{
 }
 
 .shows-child10{
+    font-family: sans-serif;
     background-image: url(showsBackground.jpg);
     margin: 10px;
     flex: auto;
