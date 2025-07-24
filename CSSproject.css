@@ -10,6 +10,7 @@ body{
 
 @media screen and (min-width: 501px){
 .header{
+    font-family: 'Courier New', monospace;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,6 +54,7 @@ body{
 }
 
 .nav .nav-child{
+    font-family: 'Aldrich';
     text-decoration: none;
     color:black;
     
@@ -64,6 +66,7 @@ body{
 }
 
 .subheader{
+    font-family: 'Courier New', monospace;
     background-color: #cfb87c80;
     margin-left: 0;
     margin-right: 0;
@@ -71,7 +74,7 @@ body{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    font-size: 28px;
+    font-size: 32px;
 }
 
 .concerts{
@@ -95,6 +98,11 @@ body{
     width: 300px;
     text-align: left;
 }
+
+.shows-child1 h3{
+    font-family: 'Aldrich';
+}
+
 .shows-child2{
     background-image: url(showsBackground.jpg);
     margin: 10px;
@@ -103,6 +111,11 @@ body{
     width: 300px;
     text-align: left;
 }
+
+.shows-child2 h3{
+    font-family: 'Aldrich';
+}
+
 .shows-child3{
     background-image: url(showsBackground.jpg);
     margin: 10px;
@@ -111,6 +124,11 @@ body{
     width: 300px;
     text-align: left;
 }
+
+.shows-child3 h3{
+    font-family: 'Aldrich';
+}
+
 .shows-child4{
     background-image: url(showsBackground.jpg);
     margin: 10px;
@@ -119,6 +137,11 @@ body{
     width: 300px;
     text-align: left;
 }
+
+.shows-child4 h3{
+    font-family: 'Aldrich';
+}
+
 .shows-child5{
     background-image: url(showsBackground.jpg);
     margin: 10px;
@@ -127,6 +150,11 @@ body{
     width: 300px;
     text-align: left;
 }
+
+.shows-child5 h3{
+    font-family: 'Aldrich';
+}
+
 .shows-child6{
     background-image: url(showsBackground.jpg);
     margin: 10px;
@@ -135,6 +163,11 @@ body{
     width: 300px;
     text-align: left;
 }
+
+.shows-child6 h3{
+    font-family: 'Aldrich';
+}
+
 .shows-child7{
     background-image: url(showsBackground.jpg);
     margin: 10px;
@@ -143,6 +176,11 @@ body{
     width: 300px;
     text-align: left;
 }
+
+.shows-child7 h3{
+    font-family: 'Aldrich';
+}
+
 .shows-child8{
     background-image: url(showsBackground.jpg);
     margin: 10px;
@@ -151,6 +189,11 @@ body{
     width: 300px;
     text-align: left;
 }
+
+.shows-child8 h3{
+    font-family: 'Aldrich';
+}
+
 .shows-child9{
     background-image: url(showsBackground.jpg);
     margin: 10px;
@@ -159,6 +202,11 @@ body{
     width: 300px;
     text-align: left;
 }
+
+.shows-child9 h3{
+    font-family: 'Aldrich';
+}
+
 .shows-child10{
     background-image: url(showsBackground.jpg);
     margin: 10px;
@@ -167,6 +215,11 @@ body{
     width: 300px;
     text-align: left;
 }
+
+.shows-child10 h3{
+    font-family: 'Aldrich';
+}
+
 
 #moonIMG{
     height: 800.64px;
@@ -182,12 +235,14 @@ body{
 }
 
 #contactUs{
+    font-family: 'Aldrich';
     margin: 1px;
     height: 800.64px;
     width: 480px;
 }
 
 #contactUs h3{
+    font-family: 'Aldrich';
     margin-top: 285px;
     font-size: 35px;
 }
@@ -207,6 +262,7 @@ body{
 }
 
 .footer .returnHome{
+    font-family: 'Courier New', monospace;
     font-size: 40px;
     color:#cfb87c;
     text-decoration: none;
@@ -222,13 +278,14 @@ body{
 
 @media screen and (max-width: 500px){
 .header{
+    font-family: 'Courier New', monospace;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     margin-top: 15%;
     margin-bottom: 19%;
-    font-size: 25px;
+    font-size: 27px;
 }
 
 .header h1{
@@ -266,6 +323,7 @@ body{
 }
 
 .nav .nav-child{
+    font-family: 'Aldrich';
     text-decoration: none;
     color:black;
     
@@ -277,6 +335,7 @@ body{
 }
 
 .subheader{
+    font-family: 'Courier New', monospace;
     background-color: #cfb87c80;
     margin-left: 0;
     margin-right: 0;
@@ -308,6 +367,11 @@ body{
     width: 300px;
     text-align: left;
 }
+
+.shows-child1 h3{
+    font-family: 'Aldrich';
+}
+
 .shows-child2{
     background-image: url(showsBackground.jpg);
     margin: 10px;
@@ -316,6 +380,11 @@ body{
     width: 300px;
     text-align: left;
 }
+
+.shows-child2 h3{
+    font-family: 'Aldrich';
+}
+
 .shows-child3{
     background-image: url(showsBackground.jpg);
     margin: 10px;
@@ -324,6 +393,11 @@ body{
     width: 300px;
     text-align: left;
 }
+
+.shows-child3 h3{
+    font-family: 'Aldrich';
+}
+
 .shows-child4{
     background-image: url(showsBackground.jpg);
     margin: 10px;
@@ -332,6 +406,11 @@ body{
     width: 300px;
     text-align: left;
 }
+
+.shows-child4 h3{
+    font-family: 'Aldrich';
+}
+
 .shows-child5{
     background-image: url(showsBackground.jpg);
     margin: 10px;
@@ -340,6 +419,11 @@ body{
     width: 300px;
     text-align: left;
 }
+
+.shows-child5 h3{
+    font-family: 'Aldrich';
+}
+
 .shows-child6{
     background-image: url(showsBackground.jpg);
     margin: 10px;
@@ -348,6 +432,11 @@ body{
     width: 300px;
     text-align: left;
 }
+
+.shows-child6 h3{
+    font-family: 'Aldrich';
+}
+
 .shows-child7{
     background-image: url(showsBackground.jpg);
     margin: 10px;
@@ -356,6 +445,11 @@ body{
     width: 300px;
     text-align: left;
 }
+
+.shows-child7 h3{
+    font-family: 'Aldrich';
+}
+
 .shows-child8{
     background-image: url(showsBackground.jpg);
     margin: 10px;
@@ -364,6 +458,11 @@ body{
     width: 300px;
     text-align: left;
 }
+
+.shows-child8 h3{
+    font-family: 'Aldrich';
+}
+
 .shows-child9{
     background-image: url(showsBackground.jpg);
     margin: 10px;
@@ -372,6 +471,11 @@ body{
     width: 300px;
     text-align: left;
 }
+
+.shows-child9 h3{
+    font-family: 'Aldrich';
+}
+
 .shows-child10{
     background-image: url(showsBackground.jpg);
     margin: 10px;
@@ -379,6 +483,10 @@ body{
     padding: 30px;
     width: 300px;
     text-align: left;
+}
+
+.shows-child10 h3{
+    font-family: 'Aldrich';
 }
 
 #moonIMG{
@@ -397,6 +505,7 @@ body{
 }
 
 #contactUs{
+    font-family: 'Aldrich';
     margin: 1px;
     height: 800.64px;
     width: 480px;
@@ -422,6 +531,7 @@ body{
 }
 
 .footer .returnHome{
+    font-family: 'Courier New', monospace;
     font-size: 40px;
     color:#cfb87c;
     text-decoration: none;
