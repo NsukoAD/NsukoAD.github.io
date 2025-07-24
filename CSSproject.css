@@ -1,6 +1,6 @@
 body{
     background-image: url(staticCU.png);
-    font-family:'Aldrich';
+    font-family:'Aldrich', sans-serif;
     background-color: #e4e4e4;
     color: white;
     margin: 0;
