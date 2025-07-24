@@ -189,7 +189,7 @@ body{
 
 #contactUs h3{
     margin-top: 285px;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 
@@ -257,6 +257,7 @@ body{
     color: black;
     font-size: 23px;
     position: sticky;
+    top: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -403,7 +404,7 @@ body{
 
 #contactUs h3{
     margin-top: 285px;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 
