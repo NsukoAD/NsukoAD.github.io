@@ -91,7 +91,6 @@ body{
 }
 
 .shows-child1{
-    font-family: sans-serif;
     background-image: url(showsBackground.jpg);
     margin: 10px;
     flex: auto;
@@ -103,9 +102,11 @@ body{
 .shows-child1 h3{
     font-family: 'Aldrich';
 }
+.shows-child1 p{
+    font-family: sans-serif;
+}
 
 .shows-child2{
-    font-family: sans-serif;
     background-image: url(showsBackground.jpg);
     margin: 10px;
     flex: auto;
@@ -118,8 +119,11 @@ body{
     font-family: 'Aldrich';
 }
 
-.shows-child3{
+.shows-child2 p{
     font-family: sans-serif;
+}
+
+.shows-child3{
     background-image: url(showsBackground.jpg);
     margin: 10px;
     flex: auto;
@@ -132,8 +136,11 @@ body{
     font-family: 'Aldrich';
 }
 
-.shows-child4{
+.shows-child3 p{
     font-family: sans-serif;
+}
+
+.shows-child4{
     background-image: url(showsBackground.jpg);
     margin: 10px;
     flex: auto;
@@ -146,8 +153,11 @@ body{
     font-family: 'Aldrich';
 }
 
-.shows-child5{
+.shows-child4 p{
     font-family: sans-serif;
+}
+
+.shows-child5{
     background-image: url(showsBackground.jpg);
     margin: 10px;
     flex: auto;
@@ -160,8 +170,11 @@ body{
     font-family: 'Aldrich';
 }
 
-.shows-child6{
+.shows-child5 p{
     font-family: sans-serif;
+}
+
+.shows-child6{
     background-image: url(showsBackground.jpg);
     margin: 10px;
     flex: auto;
@@ -174,8 +187,11 @@ body{
     font-family: 'Aldrich';
 }
 
-.shows-child7{
+.shows-child6 p{
     font-family: sans-serif;
+}
+
+.shows-child7{
     background-image: url(showsBackground.jpg);
     margin: 10px;
     flex: auto;
@@ -188,8 +204,11 @@ body{
     font-family: 'Aldrich';
 }
 
-.shows-child8{
+.shows-child7 p{
     font-family: sans-serif;
+}
+
+.shows-child8{
     background-image: url(showsBackground.jpg);
     margin: 10px;
     flex: auto;
@@ -202,8 +221,11 @@ body{
     font-family: 'Aldrich';
 }
 
-.shows-child9{
+.shows-child8 p{
     font-family: sans-serif;
+}
+
+.shows-child9{
     background-image: url(showsBackground.jpg);
     margin: 10px;
     flex: auto;
@@ -216,8 +238,11 @@ body{
     font-family: 'Aldrich';
 }
 
-.shows-child10{
+.shows-child9 p{
     font-family: sans-serif;
+}
+
+.shows-child10{
     background-image: url(showsBackground.jpg);
     margin: 10px;
     flex: auto;
@@ -230,6 +255,9 @@ body{
     font-family: 'Aldrich';
 }
 
+.shows-child10 p{
+    font-family: sans-serif;
+}
 
 #moonIMG{
     height: 800.64px;
