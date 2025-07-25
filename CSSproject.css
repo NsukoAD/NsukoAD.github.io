@@ -408,6 +408,9 @@ body{
 .shows-child1 h3{
     font-family: 'Aldrich';
 }
+.shows-child1 p{
+    font-family: 'Arial',sans-serif;
+}
 
 .shows-child2{
     background-image: url(showsBackground.jpg);
@@ -420,6 +423,10 @@ body{
 
 .shows-child2 h3{
     font-family: 'Aldrich';
+}
+
+.shows-child2 p{
+    font-family: 'Arial',sans-serif;
 }
 
 .shows-child3{
@@ -435,6 +442,10 @@ body{
     font-family: 'Aldrich';
 }
 
+.shows-child3 p{
+    font-family: 'Arial',sans-serif;
+}
+
 .shows-child4{
     background-image: url(showsBackground.jpg);
     margin: 10px;
@@ -446,6 +457,10 @@ body{
 
 .shows-child4 h3{
     font-family: 'Aldrich';
+}
+
+.shows-child4 p{
+    font-family: 'Arial',sans-serif;
 }
 
 .shows-child5{
@@ -461,6 +476,10 @@ body{
     font-family: 'Aldrich';
 }
 
+.shows-child5 p{
+    font-family: 'Arial',sans-serif;
+}
+
 .shows-child6{
     background-image: url(showsBackground.jpg);
     margin: 10px;
@@ -472,6 +491,10 @@ body{
 
 .shows-child6 h3{
     font-family: 'Aldrich';
+}
+
+.shows-child6 p{
+    font-family: 'Arial',sans-serif;
 }
 
 .shows-child7{
@@ -487,6 +510,10 @@ body{
     font-family: 'Aldrich';
 }
 
+.shows-child7 p{
+    font-family: 'Arial',sans-serif;
+}
+
 .shows-child8{
     background-image: url(showsBackground.jpg);
     margin: 10px;
@@ -498,6 +525,10 @@ body{
 
 .shows-child8 h3{
     font-family: 'Aldrich';
+}
+
+.shows-child8 p{
+    font-family: 'Arial',sans-serif;
 }
 
 .shows-child9{
@@ -513,6 +544,10 @@ body{
     font-family: 'Aldrich';
 }
 
+.shows-child9 p{
+    font-family: 'Arial',sans-serif;
+}
+
 .shows-child10{
     background-image: url(showsBackground.jpg);
     margin: 10px;
@@ -524,6 +559,10 @@ body{
 
 .shows-child10 h3{
     font-family: 'Aldrich';
+}
+
+.shows-child10 p{
+    font-family: 'Arial',sans-serif;
 }
 
 #moonIMG{
