@@ -1,6 +1,5 @@
 body{
     background-image: url(staticCU.png);
-    background-color: #e4e4e4;
     color: white;
     margin: 0;
 }
@@ -284,10 +283,6 @@ body{
     font-size: 35px;
 }
 
-
-.concerts .shows-parent .shows-child h3{
-    font-size: 30px;
-}
 
 .footer{
     display: flex;
@@ -593,9 +588,6 @@ body{
 }
 
 
-.concerts .shows-parent .shows-child h3{
-    font-size: 30px;
-}
 
 .footer{
     display: flex;
