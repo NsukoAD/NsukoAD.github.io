@@ -8,7 +8,7 @@ function randomValueFromArray(array){
   return array[random];
 }
 
-const storyText = 'So there I was, on a beautiful Tuesday, :insertx:, waiting for  :inserty: thats supposed to show up soon. Maybe I should :insertz: while waiting.';
+const storyText = 'So there I was, on a beautiful 113 fahrenheit Tuesday afterneoon, :insertx:, waiting for  :inserty: thats supposed to show up soon. Maybe I should :insertz: while waiting.';
 
 const insertX = [
 'chillin',
@@ -45,9 +45,10 @@ function result() {
 
   if(document.getElementById("uk").checked) {
     // const weight = Math.round(300/14) + ' stone';
-    // const temperature =  Math.round((94-32)*5/9) + ' centigrade';
+    const temperature =  Math.round((113-32)*5/9) + ' centigrade';
     const day = 'Chewsday';
     newStory = newStory.replaceAll('Tuesday', day);
+    newStory = newStory.replaceAll('113 fahrenheit', temperature);
     // newStory = newStory.replaceAll('300 pounds', weight);
 
   }
