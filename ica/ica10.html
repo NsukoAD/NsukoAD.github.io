@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            font-family: 'Courier New', Courier, monospace;
+            border: 3px solid black;
+            background-color: tan;
+            cursor: pointer;
+        }
+        #header{
+            font-family: sans-serif;
+            color: white;
+            cursor: pointer;
+            border: 5px solid chartreuse;
+            background-color: navy;
+        }
+    </style>
+</head>
+<body>
+    <button type="button">Add a Cookie! : 0</button>
+
+    <button id="header">Click Me!</button>
+    
+    <script>
+        let cookie = 0;
+        const btn = document.querySelector("button");
+        btn.addEventListener('click', addCookie);
+
+        function addCookie() {
+            cookie++;
+            btn.textContent = `Add a Cookie! : ${cookie}`;
+        }
+
+        const header = document.querySelector("#header");
+        header.addEventListener('click', headerMove);
+
+        function headerMove(){
+            header.setAttribute("style", `position: relative; left: 200px; top: 50px;`);
+        }
+
+    </script>
+
+</body>
+</html>
