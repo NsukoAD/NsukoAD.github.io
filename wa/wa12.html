@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="wa12.css">
+    <title>Anime Search</title>
+</head>
+<body>
+    <div class='app'>
+        <header>Anime Search</header>
+        <div id = 'searchBar'>
+            <input type='text' id='anime-search' placeholder='Search Anime...'>
+            <button id='search-btn'>Search</button>
+            </div>
+        <div id='animeInfo'>
+            <h2 id='anime-title'></h2>
+            <img id='anime-img'>
+            <p id='anime-description'></p>
+        </div>
+      </div>
+      <div id = 'instructions'>
+        <p>If you are unfamiliar with anime, try typing in some of my favorites into the search bar!</p><br>
+        <p><strong>Soul Eater</strong></p><br>
+        <p><strong>Fire Force</strong></p><br>
+        <p><strong>Frieren</strong></p><br>
+        <p><strong>Call of the night</strong></p><br>
+        <p><strong>Lycoris Recoil</strong></p><br>
+      </div>
+      <div id = 'explain'>
+        <p>I used the ${encodeURIComponent()} to allow user input. The user inputs a SFW Anime title, and then title is trimmed to remove spaces and inserted into the API url to retrieve the appropriate data (image, title, and description). Users are also able to search shows using both the english and japanese names. This took me forever to figure out but it is so cool!!! - shout out to MDN</p>
+      </div>
+      <script src="wa12.js"></script>
+</body>
+</html>
