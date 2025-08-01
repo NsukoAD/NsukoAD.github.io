@@ -61,7 +61,7 @@ html {
   }
   
   #anime-description{
-    background-color: #d3d3d380;
+    /* background-color: #d3d3d380; */
     color: white;
     text-align: center;
     margin-top: 30px;
@@ -78,8 +78,8 @@ html {
     max-width: 200px;
     max-width: 100%;
     margin: 20px auto;
-    border: 3px solid white;
-  }
+    /* border: 3px solid white; */
+  } 
 
   #instructions{
     color: white;
