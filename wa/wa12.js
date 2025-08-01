@@ -29,6 +29,15 @@ function displayAnime(anime) {
     document.querySelector('#anime-img').src = anime.images.jpg.image_url;
     document.querySelector('#anime-img').alt = anime.title;
     document.querySelector('#anime-description').textContent = anime.synopsis;
+
+    document.querySelector('#anime-img').style.border = '2px solid white';
+    document.querySelector('#anime-description').style.backgroundColor = '#d3d3d380';
+
+    const img = document.querySelector('#anime-img');
+    img.src = anime.images.jpg.image_url;
+    img.alt = anime.title;
+    img.classList.remove('hidden');
+    
 }
 
 // WHY DOES IT PULL UP COWBOY BEBOP WHEN NOTHING IS IN THE SEARCH BAR AND YOU SEARCH ************* MAYBE LINE 9-10?????? ************

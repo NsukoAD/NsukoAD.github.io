@@ -36,6 +36,11 @@ html {
     padding: 10px;
     border-bottom: 1px solid #ebebeb;
   }
+
+  .hidden{
+    display: none;
+    opacity: 0;
+  }
   
   #searchBar {
     display: block;
@@ -79,7 +84,7 @@ html {
     max-width: 100%;
     margin: 20px auto;
     /* border: 3px solid white; */
-  } 
+  }
 
   #instructions{
     color: white;
