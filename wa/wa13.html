@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        //problem 1
+            const employees = [
+                {'firstName': 'Sam', 'department': 'Tech', 'designation': 'Manager', 'salary': 40000, 'raiseEligible': true},
+                {'firstName': 'Mary', 'department': 'Finance', 'designation': 'Trainee', 'salary': 18500, 'raiseEligible': true},
+                {'firstName': 'Bill', 'department': 'HR', 'designation': 'Executive', 'salary': 21200, 'raiseEligible': false}
+            ];
+
+        console.log(employees);
+
+        //problem 2
+            const companyDetails = {
+                'comapnyName': 'Tech Stars', 'website': 'www.techstars.site', 'employees': employees
+            };
+
+        console.log(companyDetails);
+
+        //problem 3
+            const addingAnna = {
+                'firstName': 'Anna', 'department': 'Tech', 'designation': 'Executive', 'salary': 25600, 'raiseEligible': false
+            };
+
+            employees.push(addingAnna);
+        console.log(addingAnna);
+
+        //problem 4
+            let totalSalary = 0;
+            function Salary(employees){
+                    employees.forEach(element => {
+                    totalSalary += element.salary;
+                });
+
+            };
+            Salary(employees);
+        console.log(totalSalary);
+
+        //problem 5
+            function raises(employees){
+                    employees.forEach(element => {
+                    if (element.raiseEligible === true)
+                        element.salary *= 1.10;
+                        element.raiseEligible = false;
+                    });
+            };
+                raises(employees);
+        console.log(employees);
+
+        //problem 6
+            const wfh = ['Anna', 'Sam']
+
+            employees.forEach(element => {
+                element.wfh = wfh.includes(element.firstName);
+            });
+
+        console.log(companyDetails);
+
+
+    </script>
+</body>
+</html>
