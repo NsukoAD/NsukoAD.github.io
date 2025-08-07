@@ -13,9 +13,10 @@ startBtn.addEventListener('click', runGame);//START BUTTON
 // retryBtn.addEventListener('click', runGame); //RETRY BUTTON -moved to stopgame()
 
 function runGame (){ //MAIN FUNCTION - EVERYTHING SHOULD HAPPEN THROUGH THIS FUNCTION
+    document.body.style.cursor = 'none';
+
     game.addEventListener('mousemove', (e) => { //MOUSE MOVEMENT FOR CHARACTER
     startBtn.style.display = 'none';
-    document.body.classList.add('hideCursor');
     const gameScreen = game.getBoundingClientRect();
     let mouseX = e.clientX - gameScreen.left;
     const charWidth = character.offsetWidth;
@@ -116,17 +117,16 @@ function collisionDetect(falling, character) {
 
 function stopGame(){
     stop = true; //STOPS GAME
+    document.body.style.cursor = 'default'; 
 
     const endNumber = document.createElement('div'); //DISPLAYS PHONE NUMBER
     endNumber.textContent = `Your Phone Number: ${phoneNumber}`;
     endNumber.classList.add('result');
     document.body.appendChild(endNumber);
 
-    document.body.classList.remove('hideCursor');
-
     const retryBtn = document.createElement('div'); //DISPLAYS TRY AGAIN BUTTON
     retryBtn.textContent = 'Try Again'
-    retryBtn.classList.add('retry');
+    retryBtn.classList.add('retry');                                                                    // Z INDEX UP!!! //change dino sprite 
     document.body.appendChild(retryBtn);
 
     retryBtn.addEventListener('click', runGame);  //RESTARTS GAME WHEN PRESSED

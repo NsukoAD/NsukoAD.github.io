@@ -2,6 +2,7 @@ body{
     margin: 0;
     overflow: hidden;
     font-family:'Courier New', Courier, monospace;
+    cursor: default;
 }
 
 .start{
@@ -42,16 +43,12 @@ body{
     z-index: 10;
 }
 
-.hideCursor{
-    cursor: none;
-}
-
 .character{
     position: absolute;
     bottom: 60px;
     left: 48%;
-    width: 65px;
-    height: 65px;
+    width: 85px;
+    height: 85px;
 }
 
 .phoneNumber{
